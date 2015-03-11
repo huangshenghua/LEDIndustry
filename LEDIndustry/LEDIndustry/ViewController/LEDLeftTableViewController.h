@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LEDLeftTableViewController.h
 //  LEDIndustry
 //
 //  Created by guotianji on 15/3/11.
@@ -9,9 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "SlideNavigationController.h"
 
-@interface ViewController : UIViewController <SlideNavigationControllerDelegate>
+@interface LEDLeftTableViewController : UITableViewController
 
-
+@property (nonatomic, assign) BOOL slideOutAnimationEnabled;
 
 @end
-

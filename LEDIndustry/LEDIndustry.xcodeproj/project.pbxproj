@@ -14,6 +14,23 @@
 		B65FCC2D1AB00FA900620174 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65FCC2C1AB00FA900620174 /* Images.xcassets */; };
 		B65FCC301AB00FA900620174 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65FCC2E1AB00FA900620174 /* LaunchScreen.xib */; };
 		B65FCC3C1AB00FA900620174 /* LEDIndustryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65FCC3B1AB00FA900620174 /* LEDIndustryTests.m */; };
+		B65FCC841AB0389B00620174 /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = B65FCC761AB0389B00620174 /* SlideNavigationContorllerAnimatorFade.m */; };
+		B65FCC851AB0389B00620174 /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = B65FCC781AB0389B00620174 /* SlideNavigationContorllerAnimatorScale.m */; };
+		B65FCC861AB0389B00620174 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = B65FCC7A1AB0389B00620174 /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		B65FCC871AB0389B00620174 /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = B65FCC7C1AB0389B00620174 /* SlideNavigationContorllerAnimatorSlide.m */; };
+		B65FCC881AB0389B00620174 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = B65FCC7E1AB0389B00620174 /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		B65FCC891AB0389B00620174 /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = B65FCC801AB0389B00620174 /* menu-button.png */; };
+		B65FCC8A1AB0389B00620174 /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B65FCC811AB0389B00620174 /* menu-button@2x.png */; };
+		B65FCC8B1AB0389B00620174 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65FCC831AB0389B00620174 /* SlideNavigationController.m */; };
+		B65FCC8F1AB03A9D00620174 /* LEDLeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65FCC8E1AB03A9D00620174 /* LEDLeftTableViewController.m */; };
+		B65FCC9B1AB03C5A00620174 /* SVGloble.m in Sources */ = {isa = PBXBuildFile; fileRef = B65FCC961AB03C5A00620174 /* SVGloble.m */; };
+		B65FCC9C1AB03C5A00620174 /* SVRootScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B65FCC981AB03C5A00620174 /* SVRootScrollView.m */; };
+		B65FCC9D1AB03C5A00620174 /* SVTopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B65FCC9A1AB03C5A00620174 /* SVTopScrollView.m */; };
+		B65FCC9F1AB03ED300620174 /* red_line_and_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = B65FCC9E1AB03ED300620174 /* red_line_and_shadow.png */; };
+		B65FCCA11AB03EDA00620174 /* top_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B65FCCA01AB03EDA00620174 /* top_background.png */; };
+		B65FCCAE1AB04B8A00620174 /* LEDTableViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65FCCAD1AB04B8A00620174 /* LEDTableViews.xib */; };
+		B65FCCB11AB04BC100620174 /* LEDFirstTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B65FCCB01AB04BC100620174 /* LEDFirstTableView.m */; };
+		B65FCCB41AB04BD300620174 /* LEDSecondTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B65FCCB31AB04BD300620174 /* LEDSecondTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +57,38 @@
 		B65FCC351AB00FA900620174 /* LEDIndustryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEDIndustryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65FCC3A1AB00FA900620174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B65FCC3B1AB00FA900620174 /* LEDIndustryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEDIndustryTests.m; sourceTree = "<group>"; };
+		B65FCC741AB0389B00620174 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		B65FCC751AB0389B00620174 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		B65FCC761AB0389B00620174 /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		B65FCC771AB0389B00620174 /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		B65FCC781AB0389B00620174 /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		B65FCC791AB0389B00620174 /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		B65FCC7A1AB0389B00620174 /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		B65FCC7B1AB0389B00620174 /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		B65FCC7C1AB0389B00620174 /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		B65FCC7D1AB0389B00620174 /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		B65FCC7E1AB0389B00620174 /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		B65FCC801AB0389B00620174 /* menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button.png"; sourceTree = "<group>"; };
+		B65FCC811AB0389B00620174 /* menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button@2x.png"; sourceTree = "<group>"; };
+		B65FCC821AB0389B00620174 /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationController.h; path = Vender/SlideMenuController/SlideNavigationController.h; sourceTree = "<group>"; };
+		B65FCC831AB0389B00620174 /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationController.m; path = Vender/SlideMenuController/SlideNavigationController.m; sourceTree = "<group>"; };
+		B65FCC8D1AB03A9D00620174 /* LEDLeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEDLeftTableViewController.h; path = ViewController/LEDLeftTableViewController.h; sourceTree = "<group>"; };
+		B65FCC8E1AB03A9D00620174 /* LEDLeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEDLeftTableViewController.m; path = ViewController/LEDLeftTableViewController.m; sourceTree = "<group>"; };
+		B65FCC951AB03C5A00620174 /* SVGloble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGloble.h; sourceTree = "<group>"; };
+		B65FCC961AB03C5A00620174 /* SVGloble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGloble.m; sourceTree = "<group>"; };
+		B65FCC971AB03C5A00620174 /* SVRootScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRootScrollView.h; sourceTree = "<group>"; };
+		B65FCC981AB03C5A00620174 /* SVRootScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRootScrollView.m; sourceTree = "<group>"; };
+		B65FCC991AB03C5A00620174 /* SVTopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVTopScrollView.h; sourceTree = "<group>"; };
+		B65FCC9A1AB03C5A00620174 /* SVTopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVTopScrollView.m; sourceTree = "<group>"; };
+		B65FCC9E1AB03ED300620174 /* red_line_and_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_line_and_shadow.png; sourceTree = "<group>"; };
+		B65FCCA01AB03EDA00620174 /* top_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_background.png; sourceTree = "<group>"; };
+		B65FCCA31AB03F4D00620174 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		B65FCCA41AB03F9F00620174 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B65FCCAD1AB04B8A00620174 /* LEDTableViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LEDTableViews.xib; path = ViewController/LEDTableViewControllers/LEDTableViews.xib; sourceTree = "<group>"; };
+		B65FCCAF1AB04BC100620174 /* LEDFirstTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEDFirstTableView.h; path = ViewController/LEDTableViewControllers/LEDFirstTableView.h; sourceTree = "<group>"; };
+		B65FCCB01AB04BC100620174 /* LEDFirstTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEDFirstTableView.m; path = ViewController/LEDTableViewControllers/LEDFirstTableView.m; sourceTree = "<group>"; };
+		B65FCCB21AB04BD300620174 /* LEDSecondTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEDSecondTableView.h; path = ViewController/LEDTableViewControllers/LEDSecondTableView.h; sourceTree = "<group>"; };
+		B65FCCB31AB04BD300620174 /* LEDSecondTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEDSecondTableView.m; path = ViewController/LEDTableViewControllers/LEDSecondTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +130,9 @@
 		B65FCC1E1AB00FA900620174 /* LEDIndustry */ = {
 			isa = PBXGroup;
 			children = (
+				B65FCCA21AB03F4200620174 /* Macro */,
+				B65FCC8C1AB03A2900620174 /* ViewController */,
+				B65FCC451AB037C400620174 /* Vender */,
 				B65FCC231AB00FA900620174 /* AppDelegate.h */,
 				B65FCC241AB00FA900620174 /* AppDelegate.m */,
 				B65FCC261AB00FA900620174 /* ViewController.h */,
@@ -98,6 +150,7 @@
 			children = (
 				B65FCC201AB00FA900620174 /* Info.plist */,
 				B65FCC211AB00FA900620174 /* main.m */,
+				B65FCCA41AB03F9F00620174 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +170,109 @@
 				B65FCC3A1AB00FA900620174 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B65FCC451AB037C400620174 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				B65FCC941AB03C5A00620174 /* SlideScrollView */,
+				B65FCC461AB037CB00620174 /* SlideMenuController */,
+			);
+			name = Vender;
+			sourceTree = "<group>";
+		};
+		B65FCC461AB037CB00620174 /* SlideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				B65FCC731AB0389B00620174 /* Animations */,
+				B65FCC7F1AB0389B00620174 /* Assets */,
+				B65FCC821AB0389B00620174 /* SlideNavigationController.h */,
+				B65FCC831AB0389B00620174 /* SlideNavigationController.m */,
+			);
+			name = SlideMenuController;
+			sourceTree = "<group>";
+		};
+		B65FCC731AB0389B00620174 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B65FCC741AB0389B00620174 /* SlideNavigationContorllerAnimator.h */,
+				B65FCC751AB0389B00620174 /* SlideNavigationContorllerAnimatorFade.h */,
+				B65FCC761AB0389B00620174 /* SlideNavigationContorllerAnimatorFade.m */,
+				B65FCC771AB0389B00620174 /* SlideNavigationContorllerAnimatorScale.h */,
+				B65FCC781AB0389B00620174 /* SlideNavigationContorllerAnimatorScale.m */,
+				B65FCC791AB0389B00620174 /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				B65FCC7A1AB0389B00620174 /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				B65FCC7B1AB0389B00620174 /* SlideNavigationContorllerAnimatorSlide.h */,
+				B65FCC7C1AB0389B00620174 /* SlideNavigationContorllerAnimatorSlide.m */,
+				B65FCC7D1AB0389B00620174 /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				B65FCC7E1AB0389B00620174 /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+			);
+			name = Animations;
+			path = Vender/SlideMenuController/Animations;
+			sourceTree = "<group>";
+		};
+		B65FCC7F1AB0389B00620174 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B65FCC801AB0389B00620174 /* menu-button.png */,
+				B65FCC811AB0389B00620174 /* menu-button@2x.png */,
+			);
+			name = Assets;
+			path = Vender/SlideMenuController/Assets;
+			sourceTree = "<group>";
+		};
+		B65FCC8C1AB03A2900620174 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B65FCCA61AB0497700620174 /* LEDTableViewControllers */,
+				B65FCCA51AB0496600620174 /* LEDLeftTableViewController */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		B65FCC941AB03C5A00620174 /* SlideScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B65FCCA01AB03EDA00620174 /* top_background.png */,
+				B65FCC9E1AB03ED300620174 /* red_line_and_shadow.png */,
+				B65FCC951AB03C5A00620174 /* SVGloble.h */,
+				B65FCC961AB03C5A00620174 /* SVGloble.m */,
+				B65FCC971AB03C5A00620174 /* SVRootScrollView.h */,
+				B65FCC981AB03C5A00620174 /* SVRootScrollView.m */,
+				B65FCC991AB03C5A00620174 /* SVTopScrollView.h */,
+				B65FCC9A1AB03C5A00620174 /* SVTopScrollView.m */,
+			);
+			name = SlideScrollView;
+			path = Vender/SlideScrollView;
+			sourceTree = "<group>";
+		};
+		B65FCCA21AB03F4200620174 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				B65FCCA31AB03F4D00620174 /* Macro.h */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		B65FCCA51AB0496600620174 /* LEDLeftTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B65FCC8D1AB03A9D00620174 /* LEDLeftTableViewController.h */,
+				B65FCC8E1AB03A9D00620174 /* LEDLeftTableViewController.m */,
+			);
+			name = LEDLeftTableViewController;
+			sourceTree = "<group>";
+		};
+		B65FCCA61AB0497700620174 /* LEDTableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B65FCCAD1AB04B8A00620174 /* LEDTableViews.xib */,
+				B65FCCAF1AB04BC100620174 /* LEDFirstTableView.h */,
+				B65FCCB01AB04BC100620174 /* LEDFirstTableView.m */,
+				B65FCCB21AB04BD300620174 /* LEDSecondTableView.h */,
+				B65FCCB31AB04BD300620174 /* LEDSecondTableView.m */,
+			);
+			name = LEDTableViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +355,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65FCC891AB0389B00620174 /* menu-button.png in Resources */,
 				B65FCC2B1AB00FA900620174 /* Main.storyboard in Resources */,
 				B65FCC301AB00FA900620174 /* LaunchScreen.xib in Resources */,
+				B65FCC8A1AB0389B00620174 /* menu-button@2x.png in Resources */,
+				B65FCCA11AB03EDA00620174 /* top_background.png in Resources */,
+				B65FCCAE1AB04B8A00620174 /* LEDTableViews.xib in Resources */,
 				B65FCC2D1AB00FA900620174 /* Images.xcassets in Resources */,
+				B65FCC9F1AB03ED300620174 /* red_line_and_shadow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +381,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				B65FCC281AB00FA900620174 /* ViewController.m in Sources */,
+				B65FCC9D1AB03C5A00620174 /* SVTopScrollView.m in Sources */,
+				B65FCC9B1AB03C5A00620174 /* SVGloble.m in Sources */,
+				B65FCC861AB0389B00620174 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
+				B65FCCB41AB04BD300620174 /* LEDSecondTableView.m in Sources */,
+				B65FCC871AB0389B00620174 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
+				B65FCC8B1AB0389B00620174 /* SlideNavigationController.m in Sources */,
+				B65FCC841AB0389B00620174 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				B65FCC881AB0389B00620174 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
 				B65FCC251AB00FA900620174 /* AppDelegate.m in Sources */,
+				B65FCC9C1AB03C5A00620174 /* SVRootScrollView.m in Sources */,
+				B65FCC8F1AB03A9D00620174 /* LEDLeftTableViewController.m in Sources */,
+				B65FCC851AB0389B00620174 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				B65FCCB11AB04BC100620174 /* LEDFirstTableView.m in Sources */,
 				B65FCC221AB00FA900620174 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LEDIndustry/PrefixHeader.pch";
 				INFOPLIST_FILE = LEDIndustry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LEDIndustry/PrefixHeader.pch";
 				INFOPLIST_FILE = LEDIndustry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +587,7 @@
 				B65FCC411AB00FA900620174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B65FCC421AB00FA900620174 /* Build configuration list for PBXNativeTarget "LEDIndustryTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +596,7 @@
 				B65FCC441AB00FA900620174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

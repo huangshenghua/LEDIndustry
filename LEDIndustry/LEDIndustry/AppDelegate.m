@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "SVGloble.h"
+#import "LEDLeftTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,8 +20,41 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    [SVGloble shareInstance].globleWidth = SCREEN_WIDTH; //屏幕宽度
+    [SVGloble shareInstance].globleHeight = SCREEN_HEIGHT-20;  //屏幕高度（无顶栏）
+    [SVGloble shareInstance].globleAllHeight = SCREEN_HEIGHT;  //屏幕高度（有顶栏）
     
-    NSLog(@"merge");
+    
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main"
+                                                             bundle: nil];
+    
+    LEDLeftTableViewController *leftMenu = (LEDLeftTableViewController*)[mainStoryboard
+                                                                               instantiateViewControllerWithIdentifier: @"LEDLeftTableViewController"];
+    
+    [SlideNavigationController sharedInstance].leftMenu = leftMenu;
+    
+    // Creating a custom bar button for right menu
+    UIButton *button  = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
+    [button setImage:[UIImage imageNamed:@"gear"] forState:UIControlStateNormal];
+    [button addTarget:[SlideNavigationController sharedInstance] action:@selector(toggleRightMenu) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+    [SlideNavigationController sharedInstance].rightBarButtonItem = rightBarButtonItem;
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:SlideNavigationControllerDidClose object:nil queue:nil usingBlock:^(NSNotification *note) {
+        NSString *menu = note.userInfo[@"menu"];
+        NSLog(@"Closed %@", menu);
+    }];
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:SlideNavigationControllerDidOpen object:nil queue:nil usingBlock:^(NSNotification *note) {
+        NSString *menu = note.userInfo[@"menu"];
+        NSLog(@"Opened %@", menu);
+    }];
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:SlideNavigationControllerDidReveal object:nil queue:nil usingBlock:^(NSNotification *note) {
+        NSString *menu = note.userInfo[@"menu"];
+        NSLog(@"Revealed %@", menu);
+    }];
+
     return YES;
 }
 
